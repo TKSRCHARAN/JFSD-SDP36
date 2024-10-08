@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard - Health and Wellness Platform</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, Admin</h1>
+
+        <h2>Manage Resources</h2>
+        <form>
+            <label for="resourceName">Resource Name:</label>
+            <input type="text" id="resourceName" name="resourceName" required><br>
+
+            <label for="resourceType">Resource Type:</label>
+            <select id="resourceType" name="resourceType">
+                <option value="mentalHealth">Mental Health Support</option>
+                <option value="fitnessProgram">Fitness Program</option>
+                <option value="nutritionAdvice">Nutrition Advice</option>
+            </select><br>
+
+            <label for="resourceDescription">Resource Description:</label>
+            <textarea id="resourceDescription" name="resourceDescription" rows="4" cols="50"></textarea><br>
+            
+            <input type="submit" value="Add Resource">
+        </form>
+
+        <h2>Update Wellness Programs</h2>
+        <form>
+            <label for="programName">Program Name:</label>
+            <input type="text" id="programName" name="programName" required><br>
+
+            <label for="programDetails">Program Details:</label>
+            <textarea id="programDetails" name="programDetails" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Update Program">
+        </form>
+
+        <h2>Track Usage Metrics</h2>
+        <p>View statistics on resource and program usage by students.</p>
+    </div>
+    <footer>Health and Wellness Platform © 2024</footer>
+</body>
+</html>
